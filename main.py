@@ -1,9 +1,19 @@
+<<<<<<< HEAD
 # utf-8
 
 ## 2019/9/11
 
 import jieba
 import cloud
+
+## get json file containing key info of papers
+
+
+## get all words and make statis
+
+
+## most frequanct tricks, modules, stop words
+
 
 
 field_list = ['CV','CL','PR']
