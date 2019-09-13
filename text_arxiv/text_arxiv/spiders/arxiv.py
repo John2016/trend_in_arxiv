@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import scrapy
 from text_arxiv.items import TextArxivItem
+import re
 
 class ArxivSpider(scrapy.Spider):
     name = 'arxiv'
@@ -8,6 +9,7 @@ class ArxivSpider(scrapy.Spider):
     start_urls = ['http://arxiv.org/']
 
     def parse(self, response):
+        num = response.xpath('')
         response.
         for target_list in expression_list:
             item = TextArxivItem()

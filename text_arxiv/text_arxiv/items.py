@@ -13,4 +13,4 @@ class TextArxivItem(scrapy.Item):
     # name = scrapy.Field()
     title = scrapy.Field()
     abstract = scrapy.Field()
-    comments = scrapy.comments()
+    comments = scrapy.Field()
